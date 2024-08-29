@@ -32,7 +32,7 @@ public class BaseTest {
 	public LandingPage landingpage;
 	public WebDriver initializeDriver() throws IOException
 	{
-		
+		//Faisal
 		Properties prop = new Properties();
 		FileInputStream fis  = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\extentia\\resources\\GlobalData.properties");
         prop.load(fis);
